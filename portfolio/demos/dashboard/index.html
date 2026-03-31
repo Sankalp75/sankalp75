@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nexus Analytics | Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="logo">
+                <i data-lucide="hexagon"></i> Nexus
+            </div>
+            <nav>
+                <a href="#" class="active"><i data-lucide="layout-dashboard"></i> Overview</a>
+                <a href="#"><i data-lucide="users"></i> Customers</a>
+                <a href="#"><i data-lucide="shopping-bag"></i> Orders</a>
+                <a href="#"><i data-lucide="bar-chart-2"></i> Analytics</a>
+                <a href="#"><i data-lucide="settings"></i> Settings</a>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <header>
+                <h2>Overview</h2>
+                <div class="user-profile">
+                    <span>Admin User</span>
+                    <div class="avatar">AU</div>
+                </div>
+            </header>
+
+            <div class="stats-cards">
+                <div class="card">
+                    <h3>Total Revenue</h3>
+                    <div class="number">$45,230</div>
+                    <span class="trend up">+12% this week</span>
+                </div>
+                <div class="card">
+                    <h3>Active Users</h3>
+                    <div class="number">1,204</div>
+                    <span class="trend up">+5% this week</span>
+                </div>
+                <div class="card">
+                    <h3>Bounce Rate</h3>
+                    <div class="number">42.3%</div>
+                    <span class="trend down">-2% this week</span>
+                </div>
+            </div>
+
+            <div class="charts-section">
+                <div class="card chart-card">
+                    <h3>Revenue Growth</h3>
+                    <!-- Simple CSS Bar Chart Simulation -->
+                    <div class="bar-chart">
+                        <div class="bar" style="height: 40%" title="Mon"></div>
+                        <div class="bar" style="height: 60%" title="Tue"></div>
+                        <div class="bar" style="height: 75%" title="Wed"></div>
+                        <div class="bar" style="height: 55%" title="Thu"></div>
+                        <div class="bar" style="height: 90%" title="Fri"></div>
+                        <div class="bar" style="height: 80%" title="Sat"></div>
+                        <div class="bar" style="height: 65%" title="Sun"></div>
+                    </div>
+                </div>
+                <div class="card table-card">
+                    <h3>Recent Transactions</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Customer</th>
+                                <th>Status</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Alice Freeman</td>
+                                <td><span class="badge success">Completed</span></td>
+                                <td>$120.00</td>
+                            </tr>
+                            <tr>
+                                <td>Bob Smith</td>
+                                <td><span class="badge pending">Pending</span></td>
+                                <td>$85.50</td>
+                            </tr>
+                            <tr>
+                                <td>Charlie Davis</td>
+                                <td><span class="badge success">Completed</span></td>
+                                <td>$340.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>

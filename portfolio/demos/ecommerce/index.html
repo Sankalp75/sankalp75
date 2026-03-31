@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luxe | Minimalist Essential</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">LUXE.</div>
+        <div class="icons">
+            <i data-lucide="search"></i>
+            <i data-lucide="shopping-bag"></i>
+        </div>
+    </nav>
+
+    <div class="product-container">
+        <div class="product-gallery">
+            <div class="main-image"></div>
+            <div class="thumbs">
+                <div class="thumb active"></div>
+                <div class="thumb"></div>
+                <div class="thumb"></div>
+            </div>
+        </div>
+
+        <div class="product-details">
+            <span class="category">Minimalist Series</span>
+            <h1>The Essential Chronograph</h1>
+            <div class="price">$249.00</div>
+            <p class="description">
+                Crafted with precision engineering and sapphire crystal glass.
+                The Essential Chronograph is designed for those who appreciate
+                understated luxury. Water-resistant up to 50m.
+            </p>
+
+            <div class="options">
+                <div class="option-group">
+                    <label>Color</label>
+                    <div class="color-options">
+                        <div class="color selected" style="background: #222;"></div>
+                        <div class="color" style="background: #a4a4a4;"></div>
+                        <div class="color" style="background: #d4af37;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="add-to-cart">Add to Cart</button>
+
+            <div class="features">
+                <div class="feat"><i data-lucide="shield"></i> 2 Year Warranty</div>
+                <div class="feat"><i data-lucide="truck"></i> Free Shipping</div>
+            </div>
+        </div>
+    </div>
+
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>

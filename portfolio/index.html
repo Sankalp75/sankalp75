@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankalp Shambharkar | Premium Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Sankalp Shambharkar - High-performance web development, modern UI/UX, and custom web applications.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Sankalp<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="btn btn-primary small">Let's Talk</a>
+            </div>
+            <!-- Mobile menu removed as requested -->
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <span class="badge">Available for new projects</span>
+            <h1>Building <span class="gradient-text">Digital Experiences</span> That Matter.</h1>
+            <p class="subtitle">I help businesses and creators launch premium, high-performance websites and web
+                applications. Fast turnaround, pixel-perfect design.</p>
+            <div class="cta-group">
+                <a href="#work" class="btn btn-primary">View My Work <i data-lucide="arrow-right"></i></a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">Fast</span>
+                    <span class="stat-label">Delivery Speed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section - Bento Grid Style -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Capabilities</h2>
+                <p>Full-stack technical services to power your growth.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Service 1 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3>Landing Pages & Websites</h3>
+                    <p>Stunning, high-performance websites designed to convert. From portfolios to complex business
+                        sites, built with clean code and no bloat.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3>Web Applications</h3>
+                    <p>SaaS tools and customer portals built with React/Next.js.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p>Custom storefronts that drive sales securely.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="bot"></i>
+                    </div>
+                    <h3>Automation & AI</h3>
+                    <p>Custom Python scripts, scrapers, and chatbots (Discord/Telegram) to automate your manual
+                        workflows.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="bar-chart-2"></i>
+                    </div>
+                    <h3>Dashboards</h3>
+                    <p>Real-time data visualization and admin panels.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="webhook"></i>
+                    </div>
+                    <h3>API Integrations</h3>
+                    <p>Connecting Stripe, CRM, and internal tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <div class="section-header">
+                <h2>Selected Works</h2>
+                <p>Recent projects delivered with precision.</p>
+            </div>
+
+            <div class="projects-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px;">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/images/restaurant.png" alt="Restaurant Site">
+                        <a href="demos/restaurant/index.html" class="project-link" target="_blank">View Demo <i
+                                data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Gourmet Haven</h3>
+                        <div class="tags">
+                            <span>Hospitality</span>
+                            <span>Booking</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/images/dashboard.png" alt="Analytics Dashboard">
+                        <a href="demos/dashboard/index.html" class="project-link" target="_blank">View Demo <i
+                                data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Nexus Analytics</h3>
+                        <div class="tags">
+                            <span>SaaS</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/images/fitness.png" alt="Fitness App">
+                        <a href="demos/fitness/index.html" class="project-link" target="_blank">View Demo <i
+                                data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Pulse Fitness</h3>
+                        <div class="tags">
+                            <span>Health</span>
+                            <span>Landing Page</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="assets/images/ecommerce.png" alt="E-commerce">
+                        <a href="demos/ecommerce/index.html" class="project-link" target="_blank">View Demo <i
+                                data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-meta">
+                        <h3>Luxe Goods</h3>
+                        <div class="tags">
+                            <span>Retail</span>
+                            <span>Shopify</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                </div>
+                <p class="bio">
+                    I build high-performance digital products for brands that refuse to blend in. By combining
+                    engineering precision with premium design, I help businesses launch faster and scale smoother. No
+                    agency fluff, just direct collaboration and results.
+                </p>
+                <div class="skills-list">
+                    <span class="skill-tag">Full-Stack Development</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">React & Next.js</span>
+                    <span class="skill-tag">Performance Optimization</span>
+                    <span class="skill-tag">Technical SEO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-header">
+                    <h2>Ready to start?</h2>
+                    <p>Let's build something exceptional together.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h4>Email Me</h4>
+                            <a href="mailto:sankalp75shambharkar@gmail.com">sankalp75shambharkar@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <h4>Upwork</h4>
+                            <a href="https://www.upwork.com/freelancers/~016828ddebd6533b84?mp_source=share"
+                                target="_blank">View Profile ↗</a>
+                        </div>
+                        <div class="info-item">
+                            <h4>Availability</h4>
+                            <a href="#">Open for new projects</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form"
+                        onsubmit="event.preventDefault(); alert('For this demo, please email me directly!');">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your project..." rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">Sankalp.</div>
+            <div class="copyright">
+                &copy; 2026 Sankalp Shambharkar. All rights reserved.
+            </div>
+            <div class="socials">
+                <!-- Add social links here if available -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Init -->
+    <script src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+
+        // Antigravity Particle System
+        const canvas = document.getElementById('bg-canvas');
+        const ctx = canvas.getContext('2d');
+
+        let width, height;
+        let particles = [];
+
+        function resize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        let mouse = { x: null, y: null };
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+        });
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.size = Math.random() * 2 + 0.5;
+                this.color = `rgba(79, 172, 254, ${Math.random() * 0.5 + 0.2})`;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+
+                if (mouse.x != null) {
+                    let dx = mouse.x - this.x;
+                    let dy = mouse.y - this.y;
+                    let distance = Math.sqrt(dx * dx + dy * dy);
+                    const force = 150;
+
+                    if (distance < force) {
+                        const angle = Math.atan2(dy, dx);
+                        const moveX = Math.cos(angle);
+                        const moveY = Math.sin(angle);
+                        this.x -= moveX * 0.8;
+                        this.y -= moveY * 0.8;
+                    }
+                }
+
+                if (this.x < 0) this.x = width;
+                if (this.x > width) this.x = 0;
+                if (this.y < 0) this.y = height;
+                if (this.y > height) this.y = 0;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            particles = [];
+            for (let i = 0; i < 150; i++) {
+                particles.push(new Particle());
+            }
+        }
+        init();
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+        animate();
+    </script>
+</body>
+
+</html>
